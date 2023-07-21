@@ -8,20 +8,20 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-	<form>
+	<form method="post">
 		<label for="name">Name:</label>
-		<input placeholder="name" id="#name">
+		<input required="required" placeholder="name" id="#name">
 		
 		<label for="email">Email:</label>
-		<input type="email" placeholder="email" id="#email" required>
+		<input type="email" placeholder="email" id="#email" required='required'>
 		<div>
 		<label for="male" >Male</label>
-		<input type="radio" name="gender" value="male" id="#male">
+		<input type="radio" name="gender" required="required" value="male" id="#male">
 		
 		<label for="female" >Female</label>
-		<input type="radio" name="gender" required value="female" id="#female">
+		<input type="radio" name="gender" required="required" value="female" id="#female">
 		</div>
-		<label for="car">Car Brands</label>
+		<label for="cars">Car Brands</label>
 		<select id="#cars">
 			<option value="BMW">BMW</option>
 			<option value="audi">Audi</option>
